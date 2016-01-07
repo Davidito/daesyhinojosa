@@ -29,20 +29,37 @@
     </head>
     <body>
         <section id="home" data-type="parallax_section" data-speed="10">
+            <div class="mainMenu">
+                <div class="container">
+                    <div class="header clearfix next-page">
+                        <nav>
+                            <ul class="nav nav-pills pull-right">
+                                <li role="presentation"><a href="#section3">Inicio</a></li>
+                                <li role="presentation"><a href="#">Conóceme</a></li>
+                                <li role="presentation"><a href="#">Trabajo legislativo</a></li>
+                                <li role="presentation"><a href="#">Programas de vinculación</a></li>
+                                <li role="presentation"><a href="#">#3de3</a></li>
+                                <li role="presentation"><a href="#">Prensa</a></li>
+                                <li role="presentation"><a href="#">Video</a></li>
+                                <li role="presentation"><a href="#">Contacto</a></li>
+                            </ul>
+                        </nav>
+                        <h3 class="text-muted"><!--<img src="public/img/logosBanners/logodaesy.png">--></h3>
+                    </div>
+                </div>
+            </div>
+
             <article>
-                <div class="geek"></div>
-                <h2>Pagina #1</h2>
+                <?php include_once dirname(__FILE__) . '/app/views/home/sliderCarousel.php'; ?>
             </article>
         </section>
         <section id="section2" data-type="parallax_section" data-speed="10">
             <article>
-                <div class="geek"></div>
                 <h2>Pagina #2</h2>
             </article>
         </section>
         <section id="section3" data-type="parallax_section" data-speed="10">
             <article>
-                <div class="geek"></div>
                 <h2>Pagina #3</h2>
             </article>
         </section>

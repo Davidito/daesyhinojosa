@@ -4,25 +4,55 @@
 }
 
 #home{
-	background: url(../img/home.png) 50% 0 no-repeat fixed;
+	
 }
 
 #section2{
-	background: url(../img/img_01.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/backgroundModules/img_01.jpeg) 50% 0 no-repeat fixed;
 }
 
 #section3{
-	background: url(../img/img_02.jpg) 50% 0 no-repeat fixed;
+	background: url(../img/backgroundModules/img_02.jpeg) 50% 0 no-repeat fixed;
 }
 
 #home, #section2, #section3{
 	margin: 0px auto;
 	max-width: 1920px;
-	min-height: 700px;
+	min-height: 720px;
 	position: relative;
 	width: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+#section2, #section3{
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	-o-box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.mainMenu{
+	background: url(../img/logosBanners/pleca1.png);
+}
+
+.next-page {
+    
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    
+}
+
+.next-page a {
+    display: block;
+    background: url(images/down-arrow.png) no-repeat center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-animation: flow-down 2s linear 3s infinite;
+    animation: flow-down 2s linear 3s infinite;
 }
